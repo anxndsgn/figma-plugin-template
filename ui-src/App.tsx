@@ -1,4 +1,5 @@
 import { Button } from "./components/ui/button";
+import { Input } from "./components/ui/input";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Button variant="secondary">Click me</Button>
       <Button variant="ghost">Click me</Button>
       <Button variant="link">Click me</Button>
+      <Input type="text" placeholder="Enter your name" />
     </main>
   );
 }
